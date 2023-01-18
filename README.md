@@ -2,7 +2,7 @@
 <img src="https://tron.network/static/images/logo.png" width=400 />
 </p>
 
-## tron-tx-decoder
+## tron-tx-decoder-forked
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) ![npm](https://img.shields.io/npm/v/tron-tx-decoder) ![npm bundle size](https://img.shields.io/bundlephobia/min/tron-tx-decoder) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) 
 
@@ -24,13 +24,13 @@ Lightweight utility for decoding function parameters and function output from Tr
 ## Installation
 
 ```bash
-npm i tron-tx-decoder
+npm i tron-tx-decoder-forked
 ```
 
 ### Initialization
 
 ```js
-const TronTxDecoder = require('tron-tx-decoder');
+const TronTxDecoder = require('tron-tx-decoder-forked');
 
 const decoder = new TronTxDecoder({ mainnet: true });
 // { mainnet: false } for testnet
